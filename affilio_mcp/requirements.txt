@@ -1,0 +1,13 @@
+fastapi[standard]
+uvicorn
+odmantic
+motor
+redis
+pillow
+fastmcp
+mcp[cli]
+python-dateutil
+segno
+tldextract
+backoff
+gunicorn
