@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "affilio": {
+      "url": "https://mcp.affilio.link/mcp",
+      "type": "streamable-http"
+    }
+  }
+}
