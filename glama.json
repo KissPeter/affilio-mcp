@@ -1,8 +1,18 @@
 {
-  "mcpServers": {
-    "affilio": {
-      "url": "https://mcp.affilio.link/mcp",
-      "type": "streamable-http"
-    }
+  "server": {
+    "$schema": "https://glama.ai/mcp/schemas/server.json",
+    "maintainers": [
+      "KissPeter"
+    ],
+    "name": "affilio/link-shortener",
+    "description": "Free URL shortener for affiliate links. Returns a branded short URL and QR code. No authentication required. Powered by Affilio.link — Smart Affiliate Link Management.",
+    "title": "Affilio Link Shortener",
+    "version": "1.0.0",
+    "remotes": [
+      {
+        "type": "streamable-http",
+        "url": "https://mcp.affilio.link/mcp"
+      }
+    ]
   }
 }
